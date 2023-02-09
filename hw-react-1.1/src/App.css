@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./fonts/PlayfairDisplay-Black.woff') format('woff'),
+      url('./fonts/PlayfairDisplay-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Always In My Heart';
+  src: url('./fonts/AlwaysInMyHeart.woff') format('woff'),
+      url('./fonts/AlwaysInMyHeart.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.poster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://cdn.shopify.com/s/files/1/0274/7429/6892/products/DHP-1611571692330.jpg?v=1621229298");
+  width: 30%;
+  border: 3px solid #392613;
+}
+
+.wanted {
+  font-family:'Playfair Display';
+  font-weight: bolder;
+  font-size: 5rem;
+  margin: 0;
+  color: #392613;
+}
+
+.posterImg {
+  height: 50%;
+  width: 90%;
+  padding-left: 7%;
+}
+
+img {
+  height: 60%;
+  width: 90%;
+  border: 2px solid #392613;
+}
+
+.posterInfo {
+  padding: 5%;
+  width: 90%;
+  text-align: center;
+}
+
+p {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: lighter;
+  font-family:'Playfair Display';
+  color: #392613;
+  margin: 3px;
+  font-stretch: extra-condensed;
+}
+
+.posterPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.beliSymbol {
+  height: 24px;
+  width: 24px;
+  border: none;
+  padding: 5%;
+}
+
+.price {
+  font-family: 'Always In My Heart';
+  font-size: 3rem;
+}
+.posterMarine {
+  display: flex;
+  flex-direction: row;
+}
+
+.marine {
+  font-size: 6px;
+}
+.marine_name {
+  font-size: 2rem;
+}
