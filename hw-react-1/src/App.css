@@ -24,7 +24,7 @@
 }
 
 .characterCard {
-  background-color: #fff2e6;
+  background-image: url("https://cdn.shopify.com/s/files/1/0274/7429/6892/products/DHP-1611571692330.jpg?v=1621229298");
   padding: 2%;
   width: 30%;
   display: flex;
@@ -33,7 +33,7 @@
   align-items: center;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   border-radius: 10px;
-  border: 10px solid #ffe6cc;
+  /* border: 10px solid #ffe6cc; */
 }
 
 h1 {
@@ -52,13 +52,11 @@ img {
 }
 
 .characterCard_info {
-  background-color: #ffe6cc;
   padding: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   border-radius: 10px;
-  border: 10px solid #ffd9b3;
   font-family: 'Playfair Display';
   font-weight: 900;
 }
