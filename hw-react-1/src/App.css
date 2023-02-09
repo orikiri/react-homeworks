@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'ONE PIECE';
+  src: url('./fonts/ONEPIECE.woff') format('woff'),
+      url('./fonts/ONEPIECE.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./fonts/PlayfairDisplay-Regular.woff') format('woff'),
+      url('./fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.characterCard {
+  background-color: #fff2e6;
+  padding: 2%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+  border: 10px solid #ffe6cc;
+}
+
+h1 {
+  font-family: 'ONE PIECE';
+}
+
+.characterCard_images {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: #ffd9b3 0px 20px 60px -10px;
+}
+
+.characterCard_info {
+  background-color: #ffe6cc;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  border: 10px solid #ffd9b3;
+  font-family: 'Playfair Display';
+  font-weight: 900;
+}
