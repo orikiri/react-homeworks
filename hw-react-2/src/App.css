@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card.mb-4.box-shadow {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.badge{
+  margin: 10px;
+}
