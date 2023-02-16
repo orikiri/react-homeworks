@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d1d1e0;
+}
+
+.textAlign, .nameSurname, .feature {
+  border: 1px solid black;
+  padding: 5px;
+}
+.nameSurname, .textAlign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ 
+.sanchello, .toggle {
+  border-left: 1px solid black;
+  padding: 5px;
+}
+.sanchello, .toggle, .textAlign_btn, .alertName {
+  width: calc(100% / 2 - 13px);
+}
+
+
+
