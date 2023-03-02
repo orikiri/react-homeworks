@@ -1,0 +1,20 @@
+.Header {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(#087990, #055160);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #CFF4FC;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.Header > p {
+    font-size: 21px;
+}

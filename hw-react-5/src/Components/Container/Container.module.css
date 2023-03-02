@@ -1,0 +1,66 @@
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10% 0 10%;
+  }
+  
+.Card {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    min-width: 327px; 
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.Card_ind {
+    padding: 3% 5% 3% 5%;
+  }
+  
+h3 {
+    text-decoration: underline;
+  }
+  
+p {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+.Symbol {
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+  }
+  
+input {
+    width: 800px;
+    height: 64px;
+    margin-top: -32px;
+    padding-left: 32px;
+    font-size: 24px;
+  }
+input::placeholder {
+    font-size: 24px;
+  }
