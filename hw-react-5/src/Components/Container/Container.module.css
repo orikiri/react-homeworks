@@ -11,20 +11,19 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
   
-.Cards {
+.cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 10% 0 10%;
   }
   
-.Card {
+.card {
     flex: 0 0 calc(33.33% - 20px);
     max-width: calc(33.33% - 20px);
-    min-width: 327px; 
+    min-width: 300px; 
     width: 100%;
     height: 200px;
     min-height: 200px;
@@ -33,10 +32,16 @@ section {
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
-.Card_ind {
-    padding: 3% 5% 3% 5%;
+.card_ind {
+    width: 100%;
+  padding: 0 .75rem;
+
   }
   
 h3 {
@@ -44,23 +49,40 @@ h3 {
   }
   
 p {
-    font-size: 15px;
+    font-size: .75rem;
     text-align: center;
   }
-  
-.Symbol {
-    font-size: 48px;
+
+ .text {
+  padding: 0 .75rem;
+ } 
+.text > p {
+  color: #3F444A;
+}
+
+.symbol {
+    font-size: 3rem;
     text-align: center;
     margin: auto;
   }
-  
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  width: 75%;
+}
 input {
-    width: 800px;
-    height: 64px;
-    margin-top: -32px;
-    padding-left: 32px;
-    font-size: 24px;
+    width: 100%;
+    padding: .75rem 1rem; 
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    color:  #3F444A;
+
   }
 input::placeholder {
-    font-size: 24px;
+    font-size: 1.5rem;
+    color: #ABB5BE;
   }

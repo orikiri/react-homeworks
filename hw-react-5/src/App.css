@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: #D4D3D8;
+  background-color: #EDEEF3;
   font-family: 'Inter';
   margin: 0;
 }
@@ -27,4 +27,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+li.active {
+  background-color: #055160;
+  color: #fff;
 }

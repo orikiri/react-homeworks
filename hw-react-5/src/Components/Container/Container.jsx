@@ -8,14 +8,14 @@ function Container({data, title}) {
         <div className={classes.container}>
         
         <section>
-        <div className={classes.Cards}>
+        <div className={classes.cards}>
             {data.filter((item) => {
-            return title.toLowerCase() === '' ? item : item.title.toLowerCase().includes(title);
-          }).map((elem, index) => (
-                <div className={classes.Card} key={index}>
-                  <div className={classes.Card_ind}>
-                    <p className={classes.Symbol}>{elem.symbol}</p>
-                    <div>
+              return title.toLowerCase() === '' ? item : item.title.toLowerCase().includes(title)
+            }).map((elem, index) => (
+                <div className={classes.card} key={index}>
+                  <div className={classes.card_ind}>
+                    <p className={classes.symbol}>{elem.symbol}</p>
+                    <div className={classes.text}>
                       <h3>{elem.title}</h3>
                       <p>{elem.keywords}</p>
                     </div>
