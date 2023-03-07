@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <Header />
       <Inputbar setTitle={setTitle}/>
-      <Container data={currentCards} title={title}/>
+      <Container data={currentCards} title={title} allData={data}/>
       <Pagination totalCards={data.length} cardsPerPage={cardsPerPage} paginate={paginate} firstPage={firstPage} lastPage={lastPage} currentPage={currentPage} setCardsPerPage={setCardsPerPage}/>
     </div>
     )

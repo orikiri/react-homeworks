@@ -2,7 +2,10 @@ import React from 'react'
 import classes from './Container.module.css'
 
 
-function Container({data, title}) {
+function Container({data, title, allData}) {
+  
+    
+  
   return (
     <div>
         <div className={classes.container}>
@@ -10,8 +13,8 @@ function Container({data, title}) {
         <section>
         <div className={classes.cards}>
             {data.filter((item) => {
-              return title.toLowerCase() === '' ? item : item.title.toLowerCase().includes(title)
-            }).map((elem, index) => (
+                  return title.toLowerCase() === '' ? item : item.title.toLowerCase().includes(title)
+                }).map((elem, index) => (
                 <div className={classes.card} key={index}>
                   <div className={classes.card_ind}>
                     <p className={classes.symbol}>{elem.symbol}</p>
